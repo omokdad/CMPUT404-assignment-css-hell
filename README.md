@@ -25,19 +25,31 @@ Alterations to Gutenberg HTML
 =============================
 
 1.html:
-  added style in head
-  added header class to div tag
-  added <hr class=chap/> after the header to add a line
-  changed blockquote tags of the table of contents to engulf all of it
+
+added style in head
+
+added header class to div tag
+
+added hr class=chap after the header to add a line
+
+changed blockquote tags of the table of contents to engulf all of it
 
 2.html:
+
   added style in head
+  
   added header class to div tag
-  added <hr class=chap/> after the header to add a line
+  
+  added hr class=chap/ after the header to add a line
+  
   changed blockquote tags of the table of contents to engulf all of it
-  engulfed letter in <p class=quote> tag to seperate it
+  
+  engulfed letter in p class=quote tag to seperate it
 
 3.html:
+
   changed style in head
+  
   added header class to div tag
-  added <hr class=chap/> after the header to add a line
+  
+  added hr class=chap/ after the header to add a line
