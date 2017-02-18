@@ -15,34 +15,28 @@
 */
 
 body {
-    background-color: #252525;
-    font-family: Georgia, serif;
+    background-color: white;
+    font-family: "Comic Sans MS", cursive;;
 }
 
 div.main {
-    margin: 0 3em 0 3em;
+    margin: 0 5em 0 5em;
 }
 
 div.header {
-    height: 26em;
+    height: 30em;
     position: relative;
-    background: radial-gradient(closest-side at 50% 50%, #00bbee, #006699);
-}
-
-div.decoration {
-    height: 3em;
-    background-image: url("img/wood.jpeg");
-    background-size: 100% 100%;
+    background: radial-gradient(closest-side at 50% 50%, #64c9e4, #055178);
 }
 
 div.midHeader {
-    height: 20em;
+    height: 25em;
 }
 
 div.titleWrapper {
     display: block;
     position: relative;
-    width: 55%;
+    width: 65%;
     float: left;
     height: inherit;
 }
@@ -51,72 +45,52 @@ h1.title {
     position: relative;
     top: 5%;
     text-align: right;
-    font-family: "Trebuchet MS", sans-serif;
-    font-size: 4em;
-    line-height: 0.5em;
+    font-size: 5em;
+    line-height: 0.8em;
     /*background trick from https://css-tricks.com/snippets/css/gradient-text/*/
-    background: -webkit-linear-gradient(top, #ffffff, #FFCC88);
+    background: -webkit-linear-gradient(left, yellow,yellow, yellow, red,blue);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
 }
 
-div.imgWrapper {
-    display: block;
-    position: relative;
-    width: 45%;
-    float: right;
-    height: inherit;
-}
 
 img.header {
-    position: relative;
-    top: 10%;
-    left: -7%;
-    height: 75%;
-    width: auto;
+    display: none;
 }
 
 ul.navigation {
     height: 3em;
-    background: linear-gradient(#3a3a3a, #5a5a5a);
-    display: block;
+    background: linear-gradient(#ffff00, #ff9900);
     list-style-type: none;
-    margin: 0 auto;
     overflow: hidden;
-    padding-left: 15%;
-    padding-right: 15%;
+    padding-left: 10%;
+    padding-right: 10%;
+    width: 30%;
+    margin: auto;
 }
 
 ul.navigation li {
     float: left;
     text-align: center;
     font-size: 1.2em;
-    color: white;
+    color: black;
 }
 
 ul.navigation li a {
     display: block;
     text-decoration: none;
-    color: white;
+    color: black;
     padding: 0.6em 0.6em;
 }
 
 ul.navigation li.number {
     display: block;
     text-decoration: none;
-    color: gold;
+    color: black;
     padding: 0.6em 0.6em;
     float: right;
-}
-
-ul.navigation li a.active {
-    color: #3090c0;
-}
-
-ul.navigation li a:hover:not(.active) {
-    background-color: #383437;
 }
 
 div.body {
@@ -158,7 +132,7 @@ div.rightBlock {
 
 div.side {
     padding: 1em;
-    background-color: #f1f1f1;
+    background-color: #fade66;
 }
 
 h2.side {
@@ -168,7 +142,7 @@ h2.side {
 h3.side {
     margin: 30px 8px 8px 8px;
     text-align: center;
-    color: #206080;
+    color: #368020;
     font-weight: bold;
 }
 
@@ -202,35 +176,6 @@ p.rss {
     font-weight: bold;
 }
 
-ul.footer {
-    display: block;
-    list-style-type: none;
-    margin: 0 auto;
-    overflow: hidden;
-    padding-left: 30%;
-}
-
-ul.footer li {
-    float: left;
-    text-align: center;
-    font-size: 1.2em;
-    color: white;
-}
-
-ul.footer li a {
-    display: block;
-    text-decoration: none;
-    color: white;
-    padding: 0.6em 0.6em;
-}
-
-ul.footer li a:hover:not(.active) {
-    background-color: #c0b040;
-}
-
-ul.footer li a.active {
-    color: #3090c0;
-}
 
 img {
     margin: 1em;
